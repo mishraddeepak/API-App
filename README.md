@@ -24,19 +24,19 @@ An Ecommerce API designed to manage products. Such as adding,deleting,updating a
 #### Get all items
 
 ```http
-  GET /api/products
+  GET https://api-app-a594.onrender.com/api/products
 ```
 #### Add item
 ```http
-  POST/api/products
+  POST https://api-app-a594.onrender.com/api/products
 ```
 #### Delete item
 ```http
-  DELETE/api/products/:id
+  DELETE https://api-app-a594.onrender.com/api/products/:id
 ```
 #### Update item
 ```http
-  PATCH/api/products/:id
+  PATCH https://api-app-a594.onrender.com/api/products/:id
 ```
 
 
