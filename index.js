@@ -8,6 +8,9 @@ const app = express()
 
 //middlewares
 app.use(bodyParser.json())
+app.use('/',(req,res)=>{
+    return res.json({message:"Welcome to the API"})
+})
 app.use('/api/product',require('./src/features/products/routees/routes/product.routes'))
 
 
